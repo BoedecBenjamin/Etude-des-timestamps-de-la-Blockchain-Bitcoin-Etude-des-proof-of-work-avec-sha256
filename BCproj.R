@@ -3,7 +3,7 @@ require(MASS)
 
 library(anytime)
 
-donneeBrute <- read.csv2("C:\\Users\\benja\\Desktop\\ESILV\\Cryptofinance\\timestamps5.csv",header = FALSE)
+donneeBrute <- read.csv2("timestamps5.csv",header = FALSE)
 debut <- anytime(donneeBrute$V1[1])
 fin <- anytime(donneeBrute$V1[length(donneeBrute$V1)])
 donneeFiltre <- list()
