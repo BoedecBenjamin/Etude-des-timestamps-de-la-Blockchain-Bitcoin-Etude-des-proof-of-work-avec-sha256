@@ -23,9 +23,6 @@ ks.test(unlist(donneeFiltre),control)
 
 donnee <- unlist(donneeFiltre)
 
-
-
-
 fit1 <- fitdistr(donnee, "exponential")
 fit2 <- fitdistr(control, "exponential")
 
